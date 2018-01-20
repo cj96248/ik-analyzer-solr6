@@ -1,6 +1,6 @@
 /**
- * IK 中文分词  版本 5.0.1
- * IK Analyzer release 5.0.1
+ * IK 中文分词  版本 6.0
+ * IK Analyzer release 6.0
  * 
  * Licensed to the Apache Software Foundation (ASF) under one or more
  * contributor license agreements.  See the NOTICE file distributed with
@@ -73,6 +73,7 @@ public class IKAnalzyerDemo {
 			//释放TokenStream的所有资源
 			if(ts != null){
 		      try {
+		    	analyzer.close();
 				ts.close();
 		      } catch (IOException e) {
 				e.printStackTrace();

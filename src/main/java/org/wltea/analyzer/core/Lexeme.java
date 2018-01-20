@@ -1,6 +1,6 @@
 /**
- * IK 中文分词  版本 5.0
- * IK Analyzer release 5.0
+ * IK 中文分词  版本 6.0
+ * IK Analyzer release 6.0
  * 
  * Licensed to the Apache Software Foundation (ASF) under one or more
  * contributor license agreements.  See the NOTICE file distributed with
@@ -72,7 +72,7 @@ public class Lexeme implements Comparable<Lexeme>{
 		this.lexemeType = lexemeType;
 	}
 	
-    /*
+    /**
      * 判断词元相等算法
      * 起始位置偏移、起始位置、终止位置相同
      * @see java.lang.Object#equals(Object o)
@@ -100,7 +100,7 @@ public class Lexeme implements Comparable<Lexeme>{
 		}
 	}
 	
-    /*
+    /**
      * 词元哈希编码算法
      * @see java.lang.Object#hashCode()
      */
@@ -110,7 +110,7 @@ public class Lexeme implements Comparable<Lexeme>{
     	return  (absBegin * 37) + (absEnd * 31) + ((absBegin * absEnd) % getLength()) * 11;
     }
     
-    /*
+    /**
      * 词元在排序集合中的比较算法
      * @see java.lang.Comparable#compareTo(java.lang.Object)
      */
@@ -254,7 +254,7 @@ public class Lexeme implements Comparable<Lexeme>{
 	
 	/**
 	 * 合并两个相邻的词元
-	 * @param l
+	 * @param Lexeme
 	 * @param lexemeType
 	 * @return boolean 词元是否成功合并
 	 */

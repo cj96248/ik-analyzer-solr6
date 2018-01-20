@@ -1,6 +1,6 @@
 /**
- * IK 中文分词  版本 5.0.1
- * IK Analyzer release 5.0.1
+ * IK 中文分词  版本 6
+ * IK Analyzer release 6.0
  * 
  * Licensed to the Apache Software Foundation (ASF) under one or more
  * contributor license agreements.  See the NOTICE file distributed with
@@ -23,8 +23,6 @@
  * 
  */
 package org.wltea.analyzer.lucene;
-
-import java.io.Reader;
 
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.Tokenizer;

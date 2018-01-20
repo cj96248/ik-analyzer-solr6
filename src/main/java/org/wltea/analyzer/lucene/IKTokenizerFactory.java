@@ -16,7 +16,6 @@
  */
 package org.wltea.analyzer.lucene;
 
-import java.io.Reader;
 import java.util.Map;
 
 import org.apache.lucene.analysis.Tokenizer;

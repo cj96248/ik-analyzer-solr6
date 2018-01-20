@@ -1,6 +1,6 @@
 /**
- * IK 中文分词  版本 5.0
- * IK Analyzer release 5.0
+ * IK 中文分词  版本 6.0
+ * IK Analyzer release 6.0
  * 
  * Licensed to the Apache Software Foundation (ASF) under one or more
  * contributor license agreements.  See the NOTICE file distributed with
@@ -81,10 +81,10 @@ class AnalyzeContext {
     	this.cfg = cfg;
     	this.segmentBuff = new char[BUFF_SIZE];
     	this.charTypes = new int[BUFF_SIZE];
-    	this.buffLocker = new HashSet<String>();
+    	this.buffLocker = new HashSet<>();
     	this.orgLexemes = new QuickSortSet();
-    	this.pathMap = new HashMap<Integer , LexemePath>();    	
-    	this.results = new LinkedList<Lexeme>();
+    	this.pathMap = new HashMap<>();    	
+    	this.results = new LinkedList<>();
     }
     
     int getCursor(){
