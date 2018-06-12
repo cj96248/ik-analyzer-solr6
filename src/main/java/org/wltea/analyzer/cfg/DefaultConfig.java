@@ -68,7 +68,7 @@ public class DefaultConfig implements Configuration{
 		return new DefaultConfig();
 	}
 	
-	/*
+	/**
 	 * 初始化配置文件
 	 */
 	private DefaultConfig(){		

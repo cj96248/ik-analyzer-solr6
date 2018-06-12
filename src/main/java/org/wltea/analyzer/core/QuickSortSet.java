@@ -183,8 +183,8 @@ class QuickSortSet {
 	
 	/**
 	 * 
-	 * IK 中文分词  版本 5.0
-	 * IK Analyzer release 5.0
+	 * IK 中文分词  版本 6.0
+	 * IK Analyzer release 6.0
 	 * 
 	 * Licensed to the Apache Software Foundation (ASF) under one or more
 	 * contributor license agreements.  See the NOTICE file distributed with
